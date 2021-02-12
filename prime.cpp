@@ -3,8 +3,9 @@
  * psi(x) = #{primes under x that are congruent to 3 mod 4}
  * and
  * pi(x) = #{primes under x}
- * for large x
- * Primality test proposed by https://www.tutorialspoint.com/primality-test-in-cplusplus
+ * for large x.
+ * Primality test proposed by:
+ * https://www.tutorialspoint.com/primality-test-in-cplusplus
  */
 #include <math.h>
 #include <iostream>
