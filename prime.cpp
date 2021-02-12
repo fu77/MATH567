@@ -20,6 +20,7 @@ int power(int a, unsigned int n, int p) {
   }
   return res;
 }
+
 int gcd(int a, int b) {
   if (a < b)
     return gcd(b, a);
@@ -28,6 +29,7 @@ int gcd(int a, int b) {
   else
     return gcd(b, a % b);
 }
+
 bool isPrime(unsigned int n, int k) {
   if (n <= 1 || n == 4) return false;
   if (n <= 3) return true;
@@ -39,6 +41,7 @@ bool isPrime(unsigned int n, int k) {
   }
   return true;
 }
+
 int psi(unsigned int n) {
   int count = 0;
   for (int i = 3; i <= n; i += 2) {
